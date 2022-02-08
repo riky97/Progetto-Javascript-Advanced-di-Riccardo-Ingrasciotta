@@ -1,0 +1,53 @@
+$breakpoint-tablet: 768px;
+$breakpoint-mobile: 576px;
+
+.marginTop {
+  //padding-top: 5em;
+  margin-top: 2em;
+  min-height: 100vh;
+}
+.card-title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer {
+  margin-bottom: 0;
+  margin-top: 10em;
+  background-color: #fff;
+  height: 10vh;
+}
+
+.img {
+  width: 180px !important;
+  height: 280px !important;
+}
+
+@media (min-width: $breakpoint-mobile) and (max-width: $breakpoint-tablet) {
+  .col-6 {
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .card {
+    width: 300px;
+  }
+  .img,
+  .img_book {
+    width: 100% !important;
+    height: 280px !important;
+  }
+}
+@media (max-width: $breakpoint-mobile) {
+  .col-6 {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    .card {
+      width: 300px;
+    }
+  }
+
+  .img,
+  .img_book {
+    width: 100% !important;
+    height: 280px !important;
+  }
+}

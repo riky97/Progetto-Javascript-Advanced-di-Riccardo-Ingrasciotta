@@ -1,0 +1,236 @@
+/*--------------------------------------------------------- BASICS -------------------------------------------------------------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  color: #000 !important;
+  text-decoration: none;
+}
+/*
+body {
+  background-attachment: fixed;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+@media (min-width: 800px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1600px) {
+  body {
+    font-size: 17px;
+  }
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-weight: 500 !important;
+  max-width: 100vw !important;
+  overflow-x: hidden;
+}
+
+a {
+  color: #000 !important;
+  text-decoration: none;
+}
+
+p {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+figure {
+  margin: 0;
+}
+
+label {
+  font-weight: normal !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 0;
+  margin-top: 0;
+  line-height: 1 !important;
+}
+
+h1,
+h2,
+h3 {
+  letter-spacing: -0.025em;
+}
+
+h4,
+h5,
+h6 {
+  letter-spacing: -0.025em;
+}
+
+h1 {
+  font-size: 2.4rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.8rem;
+}
+h4 {
+  font-size: 1.4rem;
+}
+h5 {
+  font-size: 1.025rem;
+}
+h6 {
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 2.8rem !important;
+  }
+  h2 {
+    font-size: 2.4rem !important;
+  }
+  h3 {
+    font-size: 2rem !important;
+  }
+  h4 {
+    font-size: 1.5rem !important;
+  }
+  h5 {
+    font-size: 1.25rem !important;
+  }
+  h6 {
+    font-size: 1.1rem !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  h1 {
+    font-size: 3.7rem !important;
+  }
+  h2 {
+    font-size: 3.4rem !important;
+  }
+  h3 {
+    font-size: 2.7rem !important;
+  }
+  h4 {
+    font-size: 1.5rem !important;
+  }
+  h5 {
+    font-size: 1.25rem !important;
+  }
+  h6 {
+    font-size: 1.05rem !important;
+  }
+}*/
+
+/*---------------------------------------------------------- GENERAL ICONS ---------------------------------------------------------------*/
+.icon {
+  cursor: pointer;
+  transition: all 0.2s ease-in-out, all 0.2s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+.icon-np {
+  padding: 0 !important;
+  width: auto !important;
+  height: auto !important;
+}
+
+.icon-small {
+  width: 25px;
+  height: 25px;
+}
+
+.icon-medium {
+  width: 35px;
+  height: 35px;
+}
+
+.icon-large {
+  width: 42px;
+  height: 42px;
+}
+
+.icon-huge {
+  width: 65px;
+  height: 65px;
+}
+
+@media (min-width: 900px) {
+  .icon-small {
+    width: 35px;
+    height: 35px;
+  }
+
+  .icon-medium {
+    width: 45px;
+    height: 45px;
+  }
+
+  .icon-large {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+.icon img {
+  filter: invert(1);
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+
+.icon-small img {
+  width: 15px;
+  height: 15px;
+}
+
+.icon-medium img {
+  width: 20px;
+  height: 20px;
+}
+
+.icon-large img {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+@media (min-width: 900px) {
+  .icon-small img {
+    width: 18px;
+    height: 18px;
+  }
+
+  .icon-medium img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .icon-large img {
+    width: 25px !important;
+    height: 25px !important;
+  }
+}
