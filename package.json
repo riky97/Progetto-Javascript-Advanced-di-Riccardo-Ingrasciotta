@@ -6,9 +6,11 @@
   "scripts": {
     "start": "webpack serve --open",
     "watch": "webpack --watch",
-    "build": "webpack"
+    "build": "webpack",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
+  "homepage": "https://riky97.github.io/Progetto-javascript-Advanced-di-Riccardo-Ingrasciotta",
   "author": "",
   "license": "ISC",
   "devDependencies": {
@@ -19,6 +21,7 @@
     "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^6.6.0",
     "file-loader": "^6.2.0",
+    "gh-pages": "^3.2.3",
     "html-loader": "^3.1.0",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.5.3",
