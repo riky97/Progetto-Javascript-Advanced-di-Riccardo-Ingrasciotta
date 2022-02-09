@@ -12,10 +12,11 @@
       crossorigin="anonymous"
     />
   </head>
-  <body style="background-color: #e8ebee">
-    <div class="text-center" style="background-color: #fff; width: 100%">
-      <a href="index.html" class="btn btn-small"
-        ><span class="icon-small">
+  <!--#e8ebee-->
+  <body>
+    <div class="text-center back-home">
+      <a href="index.html" class="btn btn-small icon"
+        ><span class="icon icon-small">
           <img class="icon-image" src="../images/icons/back.svg" /> </span
         >Back to home</a
       >
@@ -27,17 +28,18 @@
         class="container"
         style="border-bottom: 2px solid whitesmoke; margin-bottom: 2em"
       >
-        <h4 id="nameCategory">
+        <h3 id="nameCategory">
           <script>
             JSON.parse(sessionStorage.getItem("collectionBook")) == null
               ? (document.getElementById("nameCategory").textContent =
                   "Undefined results")
               : (document.getElementById("nameCategory").textContent =
                   "Category: " +
-                  JSON.parse(sessionStorage.getItem("collectionBook"))[0]
-                    .category);
+                  JSON.parse(
+                    sessionStorage.getItem("collectionBook")
+                  )[0].category.toUpperCase());
           </script>
-        </h4>
+        </h3>
       </div>
 
       <div class="container overflow-hidden">

@@ -40,9 +40,10 @@ section.hero {
     background: transparent !important;
     text-align: center;
     border: none !important;
+    box-shadow: none !important;
   }
   .card-title {
-    color: #fff;
+    color: #fff !important;
     padding-bottom: 0.2em;
   }
   .card-subtitle {
