@@ -1,5 +1,8 @@
 $alert_color: #f44336;
 $img_hero: url("../images/hero_book.jpeg");
+$img_hero_mobile: url("../images/hero_book_mobile.jpg");
+$breakpoint-tablet: 768px;
+$breakpoint-mobile: 576px;
 
 .alert {
   display: none;
@@ -31,6 +34,7 @@ section.hero {
   height: 100vh;
   display: grid;
   place-items: center;
+  background-position: center;
 
   .card {
     background: transparent !important;
@@ -43,5 +47,11 @@ section.hero {
   }
   .card-subtitle {
     padding-bottom: 0.8em;
+  }
+}
+@media (max-width: $breakpoint-mobile) {
+  section.hero {
+    background-image: $img_hero_mobile;
+    background-size: cover;
   }
 }
