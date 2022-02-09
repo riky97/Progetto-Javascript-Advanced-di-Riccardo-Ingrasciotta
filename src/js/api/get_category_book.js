@@ -2,8 +2,8 @@ import axios from "axios";
 
 export default async function getCategoryBook() {
   let form = document.forms.search_category;
-  let category = form.elements.category.value.ToLowerCase();
-  console.log(category);
+  let category = form.elements.category.value;
+  category = category.toLowerCase();
   if (category === "") {
     category = undefined;
   }
