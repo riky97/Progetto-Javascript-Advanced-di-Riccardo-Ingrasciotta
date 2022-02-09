@@ -1,4 +1,6 @@
 import axios from "axios";
+// Load the full build.
+const _ = require("lodash");
 
 export default async function getCategoryBook() {
   let form = document.forms.search_category;
@@ -12,14 +14,14 @@ export default async function getCategoryBook() {
     .then(function (res) {
       // handle success
       //console.log(res.data.works);
-      return res.data.works;
+      return _.get(res, "data.works");
     })
     .catch(function (error) {
       // handle error
       console.log(error);
       return undefined;
     });
-  console.log(response);
+
   if (response.length === 0 || response == undefined) {
     return false;
   } else {
@@ -28,10 +30,10 @@ export default async function getCategoryBook() {
     response.forEach((ele) => {
       arrayBook.push({
         category: category,
-        title: ele.title,
-        key: ele.key,
-        authors: ele.authors,
-        img: ele.cover_id,
+        title: _.get(ele, "title"),
+        key: _.get(ele, "key"),
+        authors: _.get(ele, "authors"),
+        img: _.get(ele, "cover_id"),
       });
     });
 

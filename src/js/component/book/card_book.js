@@ -1,5 +1,6 @@
 import axios from "axios";
-//import default_cover from "../../../images/icons/default-cover.jpg";
+// Load the full build.
+const _ = require("lodash");
 
 let collection_book = JSON.parse(sessionStorage.getItem("collectionBook"));
 if (collection_book !== null) {
@@ -33,7 +34,7 @@ if (collection_book !== null) {
       </div>
       <div class="col-md-8">
         <div class="card-body">
-          <h5 class="card-title">${id.title}</h5>
+          <h5 class="card-title">${_.get(id, "title")}</h5>
           <small class="text-muted">By: ${author(id)}</small>
          
         </div>
@@ -42,7 +43,7 @@ if (collection_book !== null) {
       </div>
       `;
     let a = document.createElement("a");
-    a.href = `book.html?id=${id.key}`;
+    a.href = `book.html?workId=${_.get(id, "key")}`;
     a.innerHTML = card;
 
     let container_book = document.getElementById("containerBook");
