@@ -17,6 +17,7 @@ export default async function getCategoryBook() {
     .catch(function (error) {
       // handle error
       console.log(error);
+      return undefined;
     });
   console.log(response);
   if (response.length === 0 || response == undefined) {
