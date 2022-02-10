@@ -74,7 +74,7 @@ async function get_description_book(ele) {
         description = arr_descr[0];
       }
     }
-    console.log(obj_book);
+
     let card = `
     <div class="card mb-3" style="min-width:100%">
     <div class="row g-0">
@@ -114,8 +114,7 @@ async function get_description_book(ele) {
                 ><i class="fas fa-plus"></i><i class="fas fa-minus"></i
               ></span>
               <div class="content">
-                <em>${subjects(obj_book.subjects)}</em>
-                
+                <em>${subjects(_.get(obj_book, "subjects"))}</em>     
               </div>
             </li>
           </ul>
@@ -129,9 +128,6 @@ async function get_description_book(ele) {
   });
 }
 function subjects(ele) {
-  let arr = [];
-  console.log(ele);
-
   return ele.join("/ ");
 }
 get_description_book(get_URL(URL));

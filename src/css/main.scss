@@ -7,6 +7,10 @@ $background_card: #131629;
 $background_card: #212121;
 
 /**********FONT************/
+@font-face {
+  font-family: NameCategory;
+  src: url("../font/MessinaSans-black.ttf") format("truetype");
+}
 
 @font-face {
   font-family: CardTitle;
@@ -30,6 +34,7 @@ a {
   text-decoration: none;
 }
 #nameCategory {
+  font-family: NameCategory;
   color: #fff !important;
 }
 .card {
@@ -37,13 +42,14 @@ a {
   box-shadow: 2px 1px 5px 1px rgba(0, 0, 0, 0.6);
 }
 .card-title {
-  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+  font-family: CardTitle !important;
   color: #e8d639 !important;
 }
 .text-muted {
+  font-family: CardText !important;
   color: #fff !important;
   font-size: 0.8em;
-  font-style: italic;
+  /*font-style: italic;*/
 }
 .back-home {
   margin-bottom: 2em;

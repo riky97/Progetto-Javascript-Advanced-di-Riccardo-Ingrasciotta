@@ -1,6 +1,16 @@
 $breakpoint-tablet: 768px;
 $breakpoint-mobile: 576px;
 
+@font-face {
+  font-family: BookTitleDescr;
+  src: url("../font/Plain Medium Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: BookParDescr;
+  src: url("../font/Plain-Light.ttf") format("truetype");
+}
+
 .marginTop {
   //padding-top: 5em;
   margin-top: 2em;
@@ -109,6 +119,7 @@ $breakpoint-mobile: 576px;
   cursor: pointer;
 }
 .m-d label[class^="tab"] {
+  font-family: BookTitleDescr;
   color: #fff;
   font-weight: bold;
 }
@@ -126,6 +137,7 @@ $breakpoint-mobile: 576px;
   display: none;
 }
 .content {
+  font-family: BookParDescr;
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
