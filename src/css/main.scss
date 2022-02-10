@@ -34,7 +34,7 @@ a {
 }
 .back-home {
   margin-bottom: 2em;
-  background-color: $background_card;
+  //
   width: 100%;
   color: white !important;
   .btn {
@@ -42,14 +42,16 @@ a {
   }
 }
 /*---------------------------------------------------------- GENERAL ICONS ---------------------------------------------------------------*/
+
 .icon {
   cursor: pointer;
+  background-color: $background_card;
   transition: all 0.2s ease-in-out, all 0.2s ease-in-out;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   vertical-align: middle;
-  border-radius: 50%;
+  border-radius: 5em;
   box-sizing: border-box;
   color: #fff !important;
 }
