@@ -5,6 +5,19 @@ $background_body: #292e32;
 $background_card: rgba(73, 73, 73, 0.867);
 $background_card: #131629;
 $background_card: #212121;
+
+/**********FONT************/
+
+@font-face {
+  font-family: CardTitle;
+  src: url("../font/Mark-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: CardText;
+  src: url("../font/MessinaSans-Book.ttf") format("truetype");
+}
+
 * {
   margin: 0;
   padding: 0;
