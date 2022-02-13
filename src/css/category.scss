@@ -16,28 +16,27 @@ $breakpoint-mobile: 576px;
   margin-top: 2em;
   min-height: 100vh;
 }
-.card-title {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+
 .footer {
   position: relative;
   bottom: 0;
   width: 100%;
   margin-top: 2em;
-  /*margin-bottom: 0;
-  margin-top: 10em;*/
-  color: #fff;
+  color: #000;
   height: 10vh;
-  background-color: #212121;
+  background-color: #f4e4a9;
+  display: grid;
+  place-items: center;
 }
 .footer_book {
   position: fixed;
   bottom: 0;
   width: 100%;
-
-  color: #fff;
+  color: #000;
   height: 10vh;
-  background-color: #212121;
+  background-color: #f4e4a9;
+  display: grid;
+  place-items: center;
 }
 
 .img {
@@ -91,12 +90,12 @@ $breakpoint-mobile: 576px;
 .m-d.expand-list {
   margin: 0;
   padding: 0;
-  color: #fff !important;
+  color: #000 !important;
 }
 .m-d.expand-list > li {
   list-style-type: none;
   padding: 15px 0;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #000;
   position: relative;
   /*         max-width: 80%; */
 }
@@ -120,14 +119,14 @@ $breakpoint-mobile: 576px;
 }
 .m-d label[class^="tab"] {
   font-family: BookTitleDescr;
-  color: #fff;
+  color: #000;
   font-weight: bold;
 }
 .m-d .content {
   height: auto;
   max-height: 0;
   max-width: 100%;
-  color: #fff;
+  color: #000;
   /*        background: yellow;*/
   overflow: scroll;
   transform: translateY(20px);

@@ -2,9 +2,17 @@
 
 //$background_card: #212121;
 $background_body: #292e32;
+$background_body: #a68d65;
+$background_body: #f4e4a9;
+$background_body: #592a20;
+
 $background_card: rgba(73, 73, 73, 0.867);
 $background_card: #131629;
 $background_card: #212121;
+$background_card: #428398;
+$background_card: #f4e4a9;
+
+$card_title: #29b2e0;
 
 /**********FONT************/
 @font-face {
@@ -34,7 +42,7 @@ a {
   text-decoration: none;
 }
 #nameCategory {
-  font-family: NameCategory;
+  font-family: NameCategory !important;
   color: #fff !important;
 }
 .card {
@@ -43,27 +51,27 @@ a {
 }
 .card-title {
   font-family: CardTitle !important;
-  color: #e8d639 !important;
+  color: $card_title !important;
 }
 .text-muted {
   font-family: CardText !important;
-  color: #fff !important;
+  color: #000 !important;
   font-size: 0.8em;
   /*font-style: italic;*/
 }
 .back-home {
   margin-bottom: 2em;
-  //
   width: 100%;
-  color: white !important;
+
   .btn {
-    color: white !important;
+    color: #000 !important;
   }
 }
 /*---------------------------------------------------------- GENERAL ICONS ---------------------------------------------------------------*/
 
 .icon {
   cursor: pointer;
+  background-color: #212121;
   background-color: $background_card;
   transition: all 0.2s ease-in-out, all 0.2s ease-in-out;
   display: inline-flex;
@@ -72,7 +80,7 @@ a {
   vertical-align: middle;
   border-radius: 5em;
   box-sizing: border-box;
-  color: #fff !important;
+  color: #000 !important;
 }
 
 .icon-np {
@@ -119,7 +127,7 @@ a {
 }
 
 .icon img {
-  filter: invert(1);
+  filter: invert(0);
   width: 100%;
   height: 100%;
   opacity: 1;
