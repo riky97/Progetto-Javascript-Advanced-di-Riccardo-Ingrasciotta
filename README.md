@@ -138,4 +138,4 @@ Project Link: [https://github.com/riky97/Progetto-JavaScript-Advanced-di-Riccard
 <!-- MARKDOWN LINKS & IMAGES -->
 
 [product-screenshot]: ./src/images/readme/CatturaCategory.PNG
-[product-screenshot2]: ./src/images/readme/CatturaCategory.PNG
+[product-screenshot2]: ./src/images/readme/CatturaBook.PNG
