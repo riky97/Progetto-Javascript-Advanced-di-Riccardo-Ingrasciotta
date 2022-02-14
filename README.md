@@ -80,9 +80,9 @@ A local copy will be created that you can modify as you wish.
 
 3. Start Localhost server
 
-```sh
+   ```sh
    npm start
-```
+   ```
 
 <p align="right"><a href="#top"><img src="img/topArrow_readme.png" alt="Back to top" width="30" height="30"></a></p>
 
