@@ -42,6 +42,7 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
+     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -121,7 +122,7 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right"><a href="#top"><img src="img/topArrow_readme.png" alt="Back to top" width="30" height="30"></a></p>
 
 <!-- CONTACT -->
 
@@ -135,4 +136,4 @@ Project Link: [https://github.com/riky97/Progetto-JavaScript-Advanced-di-Riccard
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[product-screenshot]: img/img_readme.png
+[product-screenshot]: ./src/images/readme/CatturaCategory.PNG
