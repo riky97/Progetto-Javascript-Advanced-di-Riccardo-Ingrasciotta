@@ -6,7 +6,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/riky97/Progetto-JavaScript-Advanced-di-Riccardo-Ingrasciotta">
-    <img src="./src/images/readme/CatturaHero1.PNG" alt="Logo" width="80" height="80">
+    <img src="./src/images/readme/CatturaHero.PNG" alt="Logo" width="100" height="100">
   </a>
 
 <h3 align="center">COUNTER_APP</h3>
