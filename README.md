@@ -51,6 +51,7 @@
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://mywebcounterapp.netlify.app/)
+[![Product Name Screen Shot][product-screenshot2]](https://mywebcounterapp.netlify.app/)
 
 ### Built With
 
@@ -137,3 +138,4 @@ Project Link: [https://github.com/riky97/Progetto-JavaScript-Advanced-di-Riccard
 <!-- MARKDOWN LINKS & IMAGES -->
 
 [product-screenshot]: ./src/images/readme/CatturaCategory.PNG
+[product-screenshot2]: ./src/images/readme/CatturaCategory.PNG
