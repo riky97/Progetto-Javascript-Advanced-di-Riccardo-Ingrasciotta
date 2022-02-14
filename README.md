@@ -37,6 +37,7 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
+      <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
@@ -66,6 +67,13 @@
 
 To install the project locally, copy and paste the following command on the command prompt.
 A local copy will be created that you can modify as you wish.
+
+### Prerequisites
+
+- npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
 ### Installation
 
