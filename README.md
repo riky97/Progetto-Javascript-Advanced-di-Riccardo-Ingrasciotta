@@ -6,10 +6,10 @@
 <br />
 <div align="center">
   <a href="https://github.com/riky97/Progetto-JavaScript-Advanced-di-Riccardo-Ingrasciotta">
-    <img src="./src/images/readme/CatturaHero.PNG" alt="Logo" width="150" height="180">
+    <img src="./src/images/readme/CatturaHero.PNG" alt="Logo" width="120" height="180">
   </a>
 
-<h3 align="center">COUNTER_APP</h3>
+<h3 align="center">ONLINE_BOOK</h3>
 
   <p align="center">
     <a href="https://github.com/riky97/Progetto-JavaScript-Advanced-di-Riccardo-Ingrasciotta"><strong>Explore the docs »</strong></a>
