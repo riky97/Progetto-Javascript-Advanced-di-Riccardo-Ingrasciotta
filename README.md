@@ -72,6 +72,17 @@ A local copy will be created that you can modify as you wish.
    ```sh
    git clone https://github.com/riky97/Progetto-JavaScript-Advanced-di-Riccardo-Ingrasciotta.git
    ```
+2. Install NPM packages
+
+   ```sh
+   npm install
+   ```
+
+3. Start Localhost server
+
+```sh
+   npm start
+```
 
 <p align="right"><a href="#top"><img src="img/topArrow_readme.png" alt="Back to top" width="30" height="30"></a></p>
 
