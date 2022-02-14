@@ -53,8 +53,9 @@
 ### Built With
 
 - [HTML](https://www.w3schools.com/html/html_intro.asp)
-- [CSS](https://www.w3schools.com/css/css_intro.asp)
+- [SCSS](https://sass-lang.com/documentation)
 - [Javascript](https://www.javascript.com/)
+- [Webpack](https://webpack.js.org/concepts/)
 - [Bootstrap](https://getbootstrap.com)
 
 <p align="right"><a href="#top"><img src="img/topArrow_readme.png" alt="Back to top" width="30" height="30"></a></p>
