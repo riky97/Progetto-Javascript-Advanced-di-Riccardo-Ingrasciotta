@@ -24,7 +24,7 @@ module.exports = {
     filename: "[name].bundle.js",
     path: path.resolve(__dirname, "dist"),
     assetModuleFilename: "images/[name][ext][query]",
-    //clean: true,
+    clean: true,
   },
 
   module: {
@@ -44,14 +44,6 @@ module.exports = {
         test: /\.(jpeg|png|gif|svg|jpg)$i/,
         type: "asset/resource",
       },
-
-      /*{
-        test: /\.(jpe?g|png|gif|svg|jpg)$/i,
-        loader: "file-loader",
-        options: {
-          name: "/images/[name].[ext]",
-        },
-      },*/
 
       {
         test: /\.scss$/,
