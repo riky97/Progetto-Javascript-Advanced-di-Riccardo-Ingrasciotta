@@ -99,9 +99,9 @@ A local copy will be created that you can modify as you wish.
 
 ## Usage
 
-The project is based on a counter app.
-You can modify the value of the counter using the + and - buttons.
-You can restart the counter value using the restart button.
+The project is aimed at enhancing the reading of books.
+You can search the various categories of books from the textbox present on the homepage.
+Once all the books of the chosen category have been viewed. you can click on a book of your choice to view its description
 <br/>
 To test the app:
 _[follow this link](https://mywebcounterapp.netlify.app/)_
