@@ -50,8 +50,8 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://mywebcounterapp.netlify.app/)
-[![Product Name Screen Shot][product-screenshot2]](https://mywebcounterapp.netlify.app/)
+[![Product Name Screen Shot][product-screenshot]](https://myonlinebookapp.netlify.app/)
+[![Product Name Screen Shot][product-screenshot2]](https://myonlinebookapp.netlify.app/)
 
 ### Built With
 
@@ -104,7 +104,7 @@ You can search the various categories of books from the textbox present on the h
 Once all the books of the chosen category have been viewed. you can click on a book of your choice to view its description
 <br/>
 To test the app:
-_[follow this link](https://mywebcounterapp.netlify.app/)_
+_[follow this link](https://myonlinebookapp.netlify.app/)_
 
 <p align="right"><a href="#top"><img src="img/topArrow_readme.png" alt="Back to top" width="30" height="30"></a></p>
 
